@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ToHistoryDTOTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ToHistoryDTOTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/ru.pln.orders.service.converter.html">ru.pln.orders.service.converter</a> &gt; ToHistoryDTOTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.272s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">whenCorrectOrder_thenCorrectHistory()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">whenHasHistoryCollectionIsNull_thenCorrectHistory()</td>
+<td class="success">0.252s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">whenHasHistoryCollection_thenCorrectHistory()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">whenNullHistory_thenThrowsAPIException()</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>00:06:07.840 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+00:06:07.852 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+00:06:07.894 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [ru.pln.orders.service.converter.ToHistoryDTOTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+00:06:07.909 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [ru.pln.orders.service.converter.ToHistoryDTOTest], using SpringBootContextLoader
+00:06:07.913 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [ru.pln.orders.service.converter.ToHistoryDTOTest]: class path resource [ru/pln/orders/service/converter/ToHistoryDTOTest-context.xml] does not exist
+00:06:07.914 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [ru.pln.orders.service.converter.ToHistoryDTOTest]: class path resource [ru/pln/orders/service/converter/ToHistoryDTOTestContext.groovy] does not exist
+00:06:07.914 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [ru.pln.orders.service.converter.ToHistoryDTOTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+00:06:07.915 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.pln.orders.service.converter.ToHistoryDTOTest]: ToHistoryDTOTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:06:07.964 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [ru.pln.orders.service.converter.ToHistoryDTOTest]
+00:06:08.048 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\projects\microservices\orders\build\classes\java\main\ru\pln\orders\OrdersApplication.class]
+00:06:08.050 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.pln.orders.OrdersApplication for test class ru.pln.orders.service.converter.ToHistoryDTOTest
+00:06:08.176 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [ru.pln.orders.service.converter.ToHistoryDTOTest]: using defaults.
+00:06:08.177 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+00:06:08.209 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@335b5620, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@29a0cdb, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@32a68f4f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@73194df, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6eb2384f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3c9c0d96, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3a4621bd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@31dadd46, org.springframework.test.context.event.EventPublishingTestExecutionListener@4ed5eb72, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@12f9af83, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@19b93fa8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7e6ef134, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1f010bf0, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@40db2a24, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@10cf09e8]
+00:06:08.214 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@63787180 testClass = ToHistoryDTOTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7d1cfb8b testClass = ToHistoryDTOTest, locations = '{}', classes = '{class ru.pln.orders.OrdersApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@7fd50002, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@673fdbce, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6cb107fd, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@eadd4fb, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@57bc27f5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@5c909414], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.14)
+
+2023-10-22 00:06:08.576  INFO 16816 --- [    Test worker] r.p.o.s.converter.ToHistoryDTOTest       : Starting ToHistoryDTOTest using Java 1.8.0-262 on LAPTOP-PO5GPI77 with PID 16816 (started by Полина in C:\projects\microservices\orders)
+2023-10-22 00:06:08.577  INFO 16816 --- [    Test worker] r.p.o.s.converter.ToHistoryDTOTest       : The following 1 profile is active: &quot;dev&quot;
+2023-10-22 00:06:09.690  INFO 16816 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-22 00:06:09.715  INFO 16816 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2023-10-22 00:06:10.382  INFO 16816 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-22 00:06:10.459  INFO 16816 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-22 00:06:10.672  INFO 16816 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-22 00:06:10.830  INFO 16816 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-22 00:06:10.958  INFO 16816 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-22 00:06:10.979  INFO 16816 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-22 00:06:11.931  INFO 16816 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-22 00:06:11.943  INFO 16816 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:06:12.253  WARN 16816 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-22 00:06:13.592  INFO 16816 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-10-22 00:06:13.660  INFO 16816 --- [    Test worker] r.p.o.s.converter.ToHistoryDTOTest       : Started ToHistoryDTOTest in 5.406 seconds (JVM running for 6.904)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.5.1</a> at 22.10.2023 0:06:14</p>
+</div>
+</div>
+</body>
+</html>

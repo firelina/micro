@@ -1,0 +1,7 @@
+rootProject.name = 'microservices'
+include 'products'
+include 'orders'
+include 'eureka'
+include 'gateway'
+include 'users'
+

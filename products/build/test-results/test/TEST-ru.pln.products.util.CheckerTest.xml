@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.pln.products.util.CheckerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-10-13T17:15:46" hostname="LAPTOP-PO5GPI77" time="0.087">
+  <properties/>
+  <testcase name="whenEmptyString_thenThrowsAPIException()" classname="ru.pln.products.util.CheckerTest" time="0.079"/>
+  <testcase name="whenNullString_thenThrowsAPIException()" classname="ru.pln.products.util.CheckerTest" time="0.004"/>
+  <testcase name="whenValidString_thenDoesNotThrowAPIException()" classname="ru.pln.products.util.CheckerTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
